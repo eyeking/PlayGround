@@ -1,0 +1,49 @@
+template: Hello, %s!
+defaultName: Stranger
+
+server:
+  applicationConnectors:
+    - type: http
+      port: 28080
+
+logging:
+
+  # Permit DEBUG, INFO, WARN and ERROR messages to be logged by appenders.
+  # Default level INFO will be used if following line is commented.
+  level: DEBUG
+
+  #loggers:
+      #"com.cosmicdust.dwkan.resources": TRACE
+      #"org.glassfish.jersey": DEBUG
+      #"javax.ws.rs": DEBUG
+
+  appenders:
+    # Log warnings and errors to stderr
+    - type: console
+      threshold: WARN
+      target: stderr
+
+    # Log info, warnings and errors to our apps' main log.
+    # Rolled over daily and retained for 5 days.
+    #- type: file
+    #  threshold: INFO
+    #  currentLogFilename: ./logs/dwkan.log
+    #  archivedLogFilenamePattern: ./logs/dwkan-%d.log.gz
+    #  archivedFileCount: 5
+
+
+    # Log debug messages, info, warnings and errors to our apps' debug log.
+    # Rolled over hourly and retained for 6 hours
+    #- type: file
+    #  threshold: TRACE
+    #  currentLogFilename: ./logs/dwkan-trace.log
+    #  archivedLogFilenamePattern: ./logs/dwkan-trace-%d{yyyy-MM-dd-hh}.log.gz
+    #  archivedFileCount: 6
+
+    # Log debug messages, info, warnings and errors to our apps' debug log.
+        # Rolled over hourly and retained for 6 hours
+    - type: file
+      threshold: DEBUG
+      currentLogFilename: ./logs/dwkan-debug.log
+      archivedLogFilenamePattern: ./logs/dwkan-debug-%d{yyyy-MM-dd-hh}.log.gz
+      archivedFileCount: 6

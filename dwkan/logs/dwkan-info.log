@@ -1,0 +1,210 @@
+DEBUG [2015-11-09 23:02:24,177] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.server.Server@767af56d
+DEBUG [2015-11-09 23:02:24,393] org.eclipse.jetty.server.Server: Graceful shutdown org.eclipse.jetty.server.Server@767af56d by 
+DEBUG [2015-11-09 23:02:24,415] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping application@4e5bcff7{HTTP/1.1}{0.0.0.0:28080}
+DEBUG [2015-11-09 23:02:24,424] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@19c1ccbc
+DEBUG [2015-11-09 23:02:24,442] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@137bc5fd keys=1 selected=0
+DEBUG [2015-11-09 23:02:24,460] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@137bc5fd keys=1 selected=0
+DEBUG [2015-11-09 23:02:24,481] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@fbbbaf6
+DEBUG [2015-11-09 23:02:24,491] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:24,500] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@fbbbaf6
+DEBUG [2015-11-09 23:02:24,529] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@137bc5fd keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,562] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-15-selector-ServerConnectorManager@19c1ccbc/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@137bc5fd keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,562] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@137bc5fd keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,584] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@2ae581c2 keys=1 selected=0
+DEBUG [2015-11-09 23:02:24,604] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@2ae581c2 keys=1 selected=0
+DEBUG [2015-11-09 23:02:24,612] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@6def748b
+DEBUG [2015-11-09 23:02:24,622] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:24,634] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@6def748b
+DEBUG [2015-11-09 23:02:24,666] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@2ae581c2 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,697] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@2ae581c2 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,703] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-17-selector-ServerConnectorManager@19c1ccbc/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@2ae581c2 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,722] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cef859d keys=1 selected=0
+DEBUG [2015-11-09 23:02:24,741] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cef859d keys=1 selected=0
+DEBUG [2015-11-09 23:02:24,749] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@3cc8a10
+DEBUG [2015-11-09 23:02:24,759] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:24,767] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@3cc8a10
+DEBUG [2015-11-09 23:02:24,795] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cef859d keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,823] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-16-selector-ServerConnectorManager@19c1ccbc/2,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cef859d keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,823] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cef859d keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,845] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@512d467f keys=0 selected=0
+DEBUG [2015-11-09 23:02:24,865] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@512d467f keys=0 selected=0
+DEBUG [2015-11-09 23:02:24,873] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@697c2262
+DEBUG [2015-11-09 23:02:24,881] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:24,890] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@697c2262
+DEBUG [2015-11-09 23:02:24,923] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@512d467f keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,954] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-18-selector-ServerConnectorManager@19c1ccbc/3,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@512d467f keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,958] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@512d467f keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:24,983] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@736f657b keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,003] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@736f657b keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,011] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@54b58608
+DEBUG [2015-11-09 23:02:25,019] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:25,027] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@54b58608
+DEBUG [2015-11-09 23:02:25,057] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@736f657b keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,087] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@736f657b keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,089] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-19-selector-ServerConnectorManager@19c1ccbc/4,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@736f657b keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,110] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@166fa972 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,129] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@166fa972 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,137] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@5972a2aa
+DEBUG [2015-11-09 23:02:25,145] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:25,153] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@5972a2aa
+DEBUG [2015-11-09 23:02:25,183] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@166fa972 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,215] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@166fa972 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,215] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-20-selector-ServerConnectorManager@19c1ccbc/5,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@166fa972 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,239] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cdd86df keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,258] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cdd86df keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,267] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@751574c6
+DEBUG [2015-11-09 23:02:25,276] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:25,284] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@751574c6
+DEBUG [2015-11-09 23:02:25,315] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cdd86df keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,345] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cdd86df keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,347] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-21-selector-ServerConnectorManager@19c1ccbc/6,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@7cdd86df keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,369] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@33c1da84 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,387] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@33c1da84 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,395] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@53a5af37
+DEBUG [2015-11-09 23:02:25,403] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:25,411] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@53a5af37
+DEBUG [2015-11-09 23:02:25,442] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@33c1da84 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,471] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@33c1da84 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,474] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-22-selector-ServerConnectorManager@19c1ccbc/7,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@33c1da84 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,485] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@19c1ccbc
+DEBUG [2015-11-09 23:02:25,493] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping com.codahale.metrics.jetty9.InstrumentedConnectionFactory@3051e44a
+DEBUG [2015-11-09 23:02:25,512] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping HttpConnectionFactory@32b97305{HTTP/1.1}
+DEBUG [2015-11-09 23:02:25,531] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED HttpConnectionFactory@32b97305{HTTP/1.1}
+DEBUG [2015-11-09 23:02:25,540] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED com.codahale.metrics.jetty9.InstrumentedConnectionFactory@3051e44a
+DEBUG [2015-11-09 23:02:25,547] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@75899ec8
+DEBUG [2015-11-09 23:02:25,559] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@75899ec8
+INFO  [2015-11-09 23:02:25,594] org.eclipse.jetty.server.ServerConnector: Stopped application@4e5bcff7{HTTP/1.1}{0.0.0.0:28080}
+DEBUG [2015-11-09 23:02:25,750] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED application@4e5bcff7{HTTP/1.1}{0.0.0.0:28080}
+DEBUG [2015-11-09 23:02:25,774] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping admin@23f73a89{HTTP/1.1}{0.0.0.0:8081}
+DEBUG [2015-11-09 23:02:25,782] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@62423e2f
+DEBUG [2015-11-09 23:02:25,801] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@29795ea2 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,818] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@29795ea2 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,824] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@22926ec8
+DEBUG [2015-11-09 23:02:25,832] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:25,840] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@22926ec8
+DEBUG [2015-11-09 23:02:25,867] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@29795ea2 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,892] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@29795ea2 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,894] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-25-selector-ServerConnectorManager@62423e2f/0,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@29795ea2 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:25,912] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@5f33f2f3 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,928] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@5f33f2f3 keys=0 selected=0
+DEBUG [2015-11-09 23:02:25,936] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@3ba71e33
+DEBUG [2015-11-09 23:02:25,946] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:25,956] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@3ba71e33
+DEBUG [2015-11-09 23:02:25,989] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@5f33f2f3 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,019] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-33-selector-ServerConnectorManager@62423e2f/1,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@5f33f2f3 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,021] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@5f33f2f3 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,043] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@2de8c706 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,065] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@2de8c706 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,076] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@7ba5b6a7
+DEBUG [2015-11-09 23:02:26,087] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:26,096] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@7ba5b6a7
+DEBUG [2015-11-09 23:02:26,129] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@2de8c706 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,159] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@2de8c706 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,163] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-34-selector-ServerConnectorManager@62423e2f/2,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@2de8c706 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,184] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@3a48a7d7 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,207] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@3a48a7d7 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,215] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@22407209
+DEBUG [2015-11-09 23:02:26,223] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:26,232] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@22407209
+DEBUG [2015-11-09 23:02:26,262] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@3a48a7d7 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,295] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-35-selector-ServerConnectorManager@62423e2f/3,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@3a48a7d7 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,295] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@3a48a7d7 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,319] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@19d158b1 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,338] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@19d158b1 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,346] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@34febe70
+DEBUG [2015-11-09 23:02:26,355] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:26,365] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@34febe70
+DEBUG [2015-11-09 23:02:26,392] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@19d158b1 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,417] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@19d158b1 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,420] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-36-selector-ServerConnectorManager@62423e2f/4,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@19d158b1 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,438] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@7387f99a keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,454] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@7387f99a keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,462] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@4088c63e
+DEBUG [2015-11-09 23:02:26,470] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:26,478] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@4088c63e
+DEBUG [2015-11-09 23:02:26,508] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@7387f99a keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,533] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@7387f99a keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,537] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-37-selector-ServerConnectorManager@62423e2f/5,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@7387f99a keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,557] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@677d39b5 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,576] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@677d39b5 keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,584] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@5dfdc788
+DEBUG [2015-11-09 23:02:26,593] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:26,601] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@5dfdc788
+DEBUG [2015-11-09 23:02:26,638] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@677d39b5 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,674] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@677d39b5 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,673] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-38-selector-ServerConnectorManager@62423e2f/6,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@677d39b5 keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,698] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@66e1319f keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,719] org.eclipse.jetty.io.SelectorManager: Stopping org.eclipse.jetty.io.SelectorManager$ManagedSelector@66e1319f keys=0 selected=0
+DEBUG [2015-11-09 23:02:26,727] org.eclipse.jetty.io.SelectorManager: Queued change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@532aaf8a
+DEBUG [2015-11-09 23:02:26,737] org.eclipse.jetty.io.SelectorManager: Selector loop woken up from select, 0/0 selected
+DEBUG [2015-11-09 23:02:26,746] org.eclipse.jetty.io.SelectorManager: Running change org.eclipse.jetty.io.SelectorManager$ManagedSelector$Stop@532aaf8a
+DEBUG [2015-11-09 23:02:26,777] org.eclipse.jetty.io.SelectorManager: Stopped org.eclipse.jetty.io.SelectorManager$ManagedSelector@66e1319f keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,808] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.io.SelectorManager$ManagedSelector@66e1319f keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,810] org.eclipse.jetty.io.SelectorManager: Stopped Thread[dw-admin-39-selector-ServerConnectorManager@62423e2f/7,5,main] on org.eclipse.jetty.io.SelectorManager$ManagedSelector@66e1319f keys=-1 selected=-1
+DEBUG [2015-11-09 23:02:26,823] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.server.ServerConnector$ServerConnectorManager@62423e2f
+DEBUG [2015-11-09 23:02:26,832] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping com.codahale.metrics.jetty9.InstrumentedConnectionFactory@9cbd0c5
+DEBUG [2015-11-09 23:02:26,850] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping HttpConnectionFactory@105faa72{HTTP/1.1}
+DEBUG [2015-11-09 23:02:26,867] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED HttpConnectionFactory@105faa72{HTTP/1.1}
+DEBUG [2015-11-09 23:02:26,875] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED com.codahale.metrics.jetty9.InstrumentedConnectionFactory@9cbd0c5
+DEBUG [2015-11-09 23:02:26,883] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@4b795159
+DEBUG [2015-11-09 23:02:26,892] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.util.thread.ScheduledExecutorScheduler@4b795159
+INFO  [2015-11-09 23:02:26,930] org.eclipse.jetty.server.ServerConnector: Stopped admin@23f73a89{HTTP/1.1}{0.0.0.0:8081}
+DEBUG [2015-11-09 23:02:26,951] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED admin@23f73a89{HTTP/1.1}{0.0.0.0:8081}
+DEBUG [2015-11-09 23:02:26,959] org.eclipse.jetty.server.handler.AbstractHandler: stopping org.eclipse.jetty.server.Server@767af56d
+DEBUG [2015-11-09 23:02:26,969] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.server.handler.StatisticsHandler@5332f20b
+DEBUG [2015-11-09 23:02:26,976] org.eclipse.jetty.server.handler.AbstractHandler: stopping org.eclipse.jetty.server.handler.StatisticsHandler@5332f20b
+DEBUG [2015-11-09 23:02:26,986] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.server.handler.RequestLogHandler@4f63bb7b
+DEBUG [2015-11-09 23:02:26,995] org.eclipse.jetty.server.handler.AbstractHandler: stopping org.eclipse.jetty.server.handler.RequestLogHandler@4f63bb7b
+DEBUG [2015-11-09 23:02:27,003] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping io.dropwizard.jetty.RoutingHandler@7bece8cf
+DEBUG [2015-11-09 23:02:27,010] org.eclipse.jetty.server.handler.AbstractHandler: stopping io.dropwizard.jetty.RoutingHandler@7bece8cf
+DEBUG [2015-11-09 23:02:27,021] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping i.d.j.MutableServletContextHandler@793552e8{/,null,AVAILABLE}
+DEBUG [2015-11-09 23:02:27,031] org.eclipse.jetty.server.handler.AbstractHandler: stopping i.d.j.MutableServletContextHandler@793552e8{/,null,UNAVAILABLE}
+DEBUG [2015-11-09 23:02:27,039] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.servlet.ServletHandler@1bd63b83
+DEBUG [2015-11-09 23:02:27,046] org.eclipse.jetty.server.handler.AbstractHandler: stopping org.eclipse.jetty.servlet.ServletHandler@1bd63b83
+DEBUG [2015-11-09 23:02:27,071] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-763026b0@30dd0e62==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+DEBUG [2015-11-09 23:02:27,092] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-763026b0@30dd0e62==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+DEBUG [2015-11-09 23:02:27,099] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping io.dropwizard.jersey.filter.AllowedMethodsFilter-3499480a
+DEBUG [2015-11-09 23:02:27,106] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED io.dropwizard.jersey.filter.AllowedMethodsFilter-3499480a
+DEBUG [2015-11-09 23:02:27,128] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping com.codahale.metrics.servlets.AdminServlet-6eb1371c@60887c==com.codahale.metrics.servlets.AdminServlet,1,true
+DEBUG [2015-11-09 23:02:27,152] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED com.codahale.metrics.servlets.AdminServlet-6eb1371c@60887c==com.codahale.metrics.servlets.AdminServlet,1,true
+DEBUG [2015-11-09 23:02:27,171] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true
+DEBUG [2015-11-09 23:02:27,189] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED tasks@6907b8e==io.dropwizard.servlets.tasks.TaskServlet,1,true
+DEBUG [2015-11-09 23:02:27,208] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.servlet.ServletHandler@1bd63b83
+INFO  [2015-11-09 23:02:27,222] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@793552e8{/,null,UNAVAILABLE}
+DEBUG [2015-11-09 23:02:27,235] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED i.d.j.MutableServletContextHandler@793552e8{/,null,UNAVAILABLE}
+DEBUG [2015-11-09 23:02:27,242] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping com.codahale.metrics.jetty9.InstrumentedHandler@7270fd39
+DEBUG [2015-11-09 23:02:27,250] org.eclipse.jetty.server.handler.AbstractHandler: stopping com.codahale.metrics.jetty9.InstrumentedHandler@7270fd39
+DEBUG [2015-11-09 23:02:27,261] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping i.d.j.MutableServletContextHandler@476e840a{/,null,AVAILABLE}
+DEBUG [2015-11-09 23:02:27,272] org.eclipse.jetty.server.handler.AbstractHandler: stopping i.d.j.MutableServletContextHandler@476e840a{/,null,UNAVAILABLE}
+DEBUG [2015-11-09 23:02:27,280] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.servlet.ServletHandler@289ed129
+DEBUG [2015-11-09 23:02:27,288] org.eclipse.jetty.server.handler.AbstractHandler: stopping org.eclipse.jetty.servlet.ServletHandler@289ed129
+DEBUG [2015-11-09 23:02:27,313] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-4fd51122@384802f7==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+DEBUG [2015-11-09 23:02:27,346] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.servlet.ServletHandler$Default404Servlet-4fd51122@384802f7==org.eclipse.jetty.servlet.ServletHandler$Default404Servlet,-1,false
+DEBUG [2015-11-09 23:02:27,375] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.glassfish.jersey.servlet.ServletContainer-26973f1b@afe9cc14==org.glassfish.jersey.servlet.ServletContainer,1,true
+DEBUG [2015-11-09 23:02:28,043] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.glassfish.jersey.servlet.ServletContainer-26973f1b@afe9cc14==org.glassfish.jersey.servlet.ServletContainer,1,true
+DEBUG [2015-11-09 23:02:28,050] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping io.dropwizard.jetty.BiDiGzipFilter-7db739ec
+DEBUG [2015-11-09 23:02:28,059] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED io.dropwizard.jetty.BiDiGzipFilter-7db739ec
+DEBUG [2015-11-09 23:02:28,068] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping io.dropwizard.servlets.ThreadNameFilter-5020791b
+DEBUG [2015-11-09 23:02:28,076] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED io.dropwizard.servlets.ThreadNameFilter-5020791b
+DEBUG [2015-11-09 23:02:28,086] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping io.dropwizard.jersey.filter.AllowedMethodsFilter-792c68e3
+DEBUG [2015-11-09 23:02:28,094] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED io.dropwizard.jersey.filter.AllowedMethodsFilter-792c68e3
+DEBUG [2015-11-09 23:02:28,104] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.servlet.ServletHandler@289ed129
+INFO  [2015-11-09 23:02:28,119] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@476e840a{/,null,UNAVAILABLE}
+DEBUG [2015-11-09 23:02:28,130] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED i.d.j.MutableServletContextHandler@476e840a{/,null,UNAVAILABLE}
+DEBUG [2015-11-09 23:02:28,139] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED com.codahale.metrics.jetty9.InstrumentedHandler@7270fd39
+DEBUG [2015-11-09 23:02:28,148] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED io.dropwizard.jetty.RoutingHandler@7bece8cf
+DEBUG [2015-11-09 23:02:28,173] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.server.handler.RequestLogHandler@4f63bb7b
+DEBUG [2015-11-09 23:02:28,183] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.server.handler.StatisticsHandler@5332f20b
+DEBUG [2015-11-09 23:02:28,191] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping io.dropwizard.jetty.Slf4jRequestLog@1688d248
+DEBUG [2015-11-09 23:02:28,205] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED io.dropwizard.jetty.Slf4jRequestLog@1688d248
+DEBUG [2015-11-09 23:02:28,238] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping dw-admin{STARTED,1<=13<=64,i=13,q=0}
+DEBUG [2015-11-09 23:02:28,303] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED dw-admin{STOPPED,1<=13<=64,i=0,q=0}
+DEBUG [2015-11-09 23:02:28,310] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping org.eclipse.jetty.server.handler.ErrorHandler@1346d0cc
+DEBUG [2015-11-09 23:02:28,321] org.eclipse.jetty.server.handler.AbstractHandler: stopping org.eclipse.jetty.server.handler.ErrorHandler@1346d0cc
+DEBUG [2015-11-09 23:02:28,329] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.server.handler.ErrorHandler@1346d0cc
+DEBUG [2015-11-09 23:02:28,338] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping io.dropwizard.lifecycle.ExecutorServiceManager@6e0f686b(TimeBoundHealthCheck-pool-%d)
+DEBUG [2015-11-09 23:02:28,348] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED io.dropwizard.lifecycle.ExecutorServiceManager@6e0f686b(TimeBoundHealthCheck-pool-%d)
+DEBUG [2015-11-09 23:02:28,381] org.eclipse.jetty.util.component.AbstractLifeCycle: stopping dw{STARTED,8<=13<=1024,i=13,q=0}
+DEBUG [2015-11-09 23:02:28,435] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED dw{STOPPED,8<=13<=1024,i=0,q=0}
+DEBUG [2015-11-09 23:02:28,443] org.eclipse.jetty.util.thread.ShutdownThread: shutdown already commenced
+DEBUG [2015-11-09 23:02:28,452] org.eclipse.jetty.util.component.AbstractLifeCycle: STOPPED org.eclipse.jetty.server.Server@767af56d

@@ -1,0 +1,51 @@
+INFO  [2015-11-10 21:10:04,702] org.eclipse.jetty.util.log: Logging initialized @1253ms
+INFO  [2015-11-10 21:10:04,793] io.dropwizard.server.ServerFactory: Starting DropWizard Kan
+INFO  [2015-11-10 21:10:04,854] org.eclipse.jetty.setuid.SetUIDListener: Opened application@5d14ea11{HTTP/1.1}{0.0.0.0:28080}
+INFO  [2015-11-10 21:10:04,855] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@81331d5{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2015-11-10 21:10:04,858] org.eclipse.jetty.server.Server: jetty-9.2.z-SNAPSHOT
+INFO  [2015-11-10 21:10:05,392] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello-world (com.cosmicdust.dwkan.resources.HelloWorldResource)
+    GET     /hello-world/id/{id} (com.cosmicdust.dwkan.resources.HelloWorldResource)
+
+INFO  [2015-11-10 21:10:05,397] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@609aef91{/,null,AVAILABLE}
+INFO  [2015-11-10 21:10:05,402] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2015-11-10 21:10:05,407] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@56ddcc4{/,null,AVAILABLE}
+INFO  [2015-11-10 21:10:05,426] org.eclipse.jetty.server.ServerConnector: Started application@5d14ea11{HTTP/1.1}{0.0.0.0:28080}
+INFO  [2015-11-10 21:10:05,431] org.eclipse.jetty.server.ServerConnector: Started admin@81331d5{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2015-11-10 21:10:05,431] org.eclipse.jetty.server.Server: Started @1984ms
+ERROR [2015-11-10 21:10:24,236] com.cosmicdust.dwkan.resources.HelloWorldResource:  !@#$%^&*() ERROR: Optional.absent()
+INFO  [2015-11-10 21:10:24,236] com.cosmicdust.dwkan.resources.HelloWorldResource:  !@#$%^&*() INFO: Optional.absent()
+WARN  [2015-11-10 21:10:24,236] com.cosmicdust.dwkan.resources.HelloWorldResource:  !@#$%^&*() WARN: Optional.absent()
+INFO  [2015-11-10 21:15:36,234] org.eclipse.jetty.server.ServerConnector: Stopped application@5d14ea11{HTTP/1.1}{0.0.0.0:28080}
+INFO  [2015-11-10 21:15:36,236] org.eclipse.jetty.server.ServerConnector: Stopped admin@81331d5{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2015-11-10 21:15:36,239] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@56ddcc4{/,null,UNAVAILABLE}
+INFO  [2015-11-10 21:15:36,244] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@609aef91{/,null,UNAVAILABLE}
+INFO  [2015-11-10 21:15:42,583] org.eclipse.jetty.util.log: Logging initialized @1090ms
+INFO  [2015-11-10 21:15:42,654] io.dropwizard.server.ServerFactory: Starting DropWizard Kan
+INFO  [2015-11-10 21:15:42,708] org.eclipse.jetty.setuid.SetUIDListener: Opened application@81331d5{HTTP/1.1}{0.0.0.0:28080}
+INFO  [2015-11-10 21:15:42,708] org.eclipse.jetty.setuid.SetUIDListener: Opened admin@242c9b17{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2015-11-10 21:15:42,710] org.eclipse.jetty.server.Server: jetty-9.2.z-SNAPSHOT
+INFO  [2015-11-10 21:15:43,184] io.dropwizard.jersey.DropwizardResourceConfig: The following paths were found for the configured resources:
+
+    GET     /hello-world (com.cosmicdust.dwkan.resources.HelloWorldResource)
+    GET     /hello-world/id/{id} (com.cosmicdust.dwkan.resources.HelloWorldResource)
+
+INFO  [2015-11-10 21:15:43,187] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@2a59375{/,null,AVAILABLE}
+INFO  [2015-11-10 21:15:43,191] io.dropwizard.setup.AdminEnvironment: tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+
+INFO  [2015-11-10 21:15:43,194] org.eclipse.jetty.server.handler.ContextHandler: Started i.d.j.MutableServletContextHandler@4133cc50{/,null,AVAILABLE}
+INFO  [2015-11-10 21:15:43,210] org.eclipse.jetty.server.ServerConnector: Started application@81331d5{HTTP/1.1}{0.0.0.0:28080}
+INFO  [2015-11-10 21:15:43,215] org.eclipse.jetty.server.ServerConnector: Started admin@242c9b17{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2015-11-10 21:15:43,215] org.eclipse.jetty.server.Server: Started @1723ms
+INFO  [2015-11-10 21:16:52,094] org.eclipse.jetty.server.ServerConnector: Stopped application@81331d5{HTTP/1.1}{0.0.0.0:28080}
+INFO  [2015-11-10 21:16:52,096] org.eclipse.jetty.server.ServerConnector: Stopped admin@242c9b17{HTTP/1.1}{0.0.0.0:8081}
+INFO  [2015-11-10 21:16:52,097] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@4133cc50{/,null,UNAVAILABLE}
+INFO  [2015-11-10 21:16:52,099] org.eclipse.jetty.server.handler.ContextHandler: Stopped i.d.j.MutableServletContextHandler@2a59375{/,null,UNAVAILABLE}
