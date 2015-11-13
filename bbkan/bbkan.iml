@@ -4,9 +4,7 @@
     <exclude-output />
     <content url="file://$MODULE_DIR$" />
     <orderEntry type="sourceFolder" forTests="false" />
-    <orderEntry type="library" name="backbone" level="application" />
-    <orderEntry type="library" name="backbone.localStorage" level="application" />
-    <orderEntry type="library" name="jquery" level="application" />
-    <orderEntry type="library" name="underscore" level="application" />
+    <orderEntry type="library" name="backbone.marionette" level="application" />
+    <orderEntry type="library" name="jquery-2.1.4" level="application" />
   </component>
 </module>
