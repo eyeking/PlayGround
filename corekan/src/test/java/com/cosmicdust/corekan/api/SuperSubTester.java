@@ -1,6 +1,6 @@
 package com.cosmicdust.corekan.api;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 /**
  * Created by nshah on 1/5/2016.
