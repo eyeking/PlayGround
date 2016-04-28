@@ -1,9 +1,10 @@
 package com.cosmicdust.corekan.api;
 
 
-import org.testng.annotations.Test;
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.is;
+
+import org.testng.annotations.Test;
 
 /**
  * Created by nshah on 12/7/2015.

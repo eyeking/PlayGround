@@ -40,13 +40,14 @@ public class HelloWorldResource {
 
     @GET
     @Timed
-    public Saying sayHi(@QueryParam("name") Optional<String> name) {
+    public Saying sayHi(@QueryParam("name") String name) {
         LOG.debug(" !@#$%^&*() DEBUG: " + name);
         LOG.error(" !@#$%^&*() ERROR: " + name);
         LOG.info(" !@#$%^&*() INFO: " + name);
         LOG.warn(" !@#$%^&*() WARN: " + name);
         LOG.trace(" !@#$%^&*() TRACE: " + name);
-        final String value = String.format(template, name.or(defaultName));
+        Optional<String> nameOptional = Optional.fromNullable(name);
+        final String value = String.format(template, nameOptional.or(defaultName));
         return new Saying(counter.incrementAndGet(), value);
     }
 }
