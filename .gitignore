@@ -4,6 +4,8 @@ target/
 .recommenders
 .settings
 
+**/test-output
+
 # Windows image file caches
 Thumbs.db
 ehthumbs.db
