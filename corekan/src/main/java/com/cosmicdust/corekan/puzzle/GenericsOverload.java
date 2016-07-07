@@ -22,3 +22,68 @@ public class GenericsOverload {
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ * overload resolution happens at compile time, that is, the compiler decides
+ * which overloaded version must be called. The compiler does so when the
+ * generic method is translated to its unique byte code representation. During
+ * that translation type erasure is performed, which means that type parameters
+ * are replaced by their leftmost bound or Object if no bound was specified.
+ * Consequently, the leftmost bound or Object determines which version of an
+ * overloaded method is invoked. What type of object is passed to the method at
+ * runtime is entirely irrelevant for overload resolution. ?
+ */

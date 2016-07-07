@@ -5,4 +5,5 @@ package com.cosmicdust.corekan.api;
  */
 public interface Parent {
     public Parent identify();
+    
 }
