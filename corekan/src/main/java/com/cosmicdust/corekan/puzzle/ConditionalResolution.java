@@ -2,11 +2,11 @@ package com.cosmicdust.corekan.puzzle;
 
 public class ConditionalResolution {
 	public static void main(String[] args) {
+		int x = 5;
+		Integer intNumber = null;
+		Integer d = new Integer(2);
 		
-		Integer i = null;
-		Double d = new Double(2.0);
-		
-		Object number = true ? i : d;
+		Number number = true ? intNumber : d;
 
 		System.out.println(number);
 	}

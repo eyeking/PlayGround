@@ -1,8 +1,7 @@
 package com.cosmicdust.corekan.puzzle;
 
 public class StaticNull {
-
-
+	private static int luckyNumber = 23;
 
 	public static StaticNull getInstance() {
 		return null;
@@ -10,7 +9,7 @@ public class StaticNull {
 
 	public static void main(String[] args) {
 		System.out.println(StaticNull.getInstance());
-
+		System.out.println(StaticNull.getInstance().luckyNumber);
 	}
 
 }
@@ -35,9 +34,7 @@ public class StaticNull {
 
 
 
-//static int luckyNumber = 23;
 
-//System.out.println(StaticNull.getInstance().luckyNumber);
 
 
 
