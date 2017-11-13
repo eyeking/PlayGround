@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+</head>
+<body>
+<script type="text/javascript">
+var myArray;
+myArray = ["John Doe","jdoe"];
+
+function cutName(info) {
+  return info.split(" ");
+}
+var myData = {};
+myData["fullName"] = cutName(myArray[0]);
+myData["skype"] = myArray[1];
+myData["github"] = null;
+
+var printData = "";
+for(i in myData)
+	{
+	printData += i + ":" + myData[i] + ", "
+	}
+alert(printData);
+</script>
+</body>
+</html>
