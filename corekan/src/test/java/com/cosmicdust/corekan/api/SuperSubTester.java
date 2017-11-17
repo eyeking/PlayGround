@@ -50,6 +50,15 @@ public class SuperSubTester {
     {
     	caller(new Child1());
     }
+
+    @Test
+    public void staticBlockCalled() {
+        Child1 c1 = new Child1();
+        Child2 c2 = new Child2();
+
+        System.out.println(c1.identify());
+        System.out.println(c2.identify());
+    }
     
     private void caller(ParentImpl parent)
     {

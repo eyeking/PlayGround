@@ -23,6 +23,7 @@ public class PredicatesExplore {
 
     @Test
     public void testAnd() {
+
         Predicate<String> p1 = new Predicate<String>() {
             @Override
             public boolean apply(String s) {

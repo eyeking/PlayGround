@@ -4,7 +4,6 @@
     <artifactId>dhaglo</artifactId>
     <groupId>com.cosmicdust</groupId>
     <version>1.0-SNAPSHOT</version>
-    <relativePath>../pom.xml/pom.xml</relativePath>
   </parent>
   <modelVersion>4.0.0</modelVersion>
   <artifactId>dwkan</artifactId>

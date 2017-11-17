@@ -8,6 +8,7 @@ public class OverLoaded {
 	}
 	public static void printSomething(Child2 child2)
 	{
+		child2.justInChild2();
 		System.out.println("child2 parameter");
 	}
 	
@@ -15,5 +16,22 @@ public class OverLoaded {
 	{
 		System.out.println("Parent parameter");
 	}
+
+	public static void start() {
+		Child2 c2 = new Child2();
+
+	}
+
+	public static void intermediary(ParentImpl parent) {
+		//end(parent);
+	}
+
+	public static void end(Child2 child2)
+	{
+		child2.justInChild2();
+		System.out.println("child2 parameter");
+	}
+
+
 
 }

@@ -7,7 +7,7 @@ public class Child2 extends ParentImpl {
         public Child2 identify(){
             return this;
         }
-        
+
         public void justInChild2() 
         {
         	System.out.println("From justInChild2()");
